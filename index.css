@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#top-banner{
+    width: 100%;
+    height: 45vh;
+}
+#header h1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+}
+#city{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    padding: 10px 150px 10px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+}
+#search-btn{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+#search-btn:hover{
+    background-color: #bcbaad;
+    color: white;
+}
+#creator{
+    color: white;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+/* CSS for Map part--------------- */
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+#info-box{
+    width: 50%;
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+#info-box :nth-child(1){
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 36px;
+    color: #bcbaad;
+}
+#info-box :nth-child(2){
+    margin-left: 25px;
+}
+#info-box :nth-child(3){
+    margin-left: 30px;
+    font-size: 46px;
+    display: inline;
+    color: #586868;
+}
+#info-box :nth-child(4){
+    display: inline;
+    position: absolute;
+    left: 24%;
+    font-weight: 600;
+    color: #818a83;
+    font-size: 18px;
+}
+#info-box :nth-child(5){
+    display: inline;
+    margin-left: 40px;
+    font-weight: 600;
+}
+#info-box :nth-child(6){
+    margin-left: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#info-box :nth-child(7){
+    margin-left: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#info-box :nth-child(8){
+    /* background-color: red; */
+    position: absolute;
+    font-weight: 600;
+    left: 24%;
+    top: 64%;
+}
+#info-box :nth-child(9){
+    /* background-color: teal; */
+    position: absolute;
+    font-weight: 600;
+    left: 24%;
+    top: 76%;
+}
+#btn-2{
+    margin-left: 70%;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#btn-2:hover{
+    background-color: #586868;
+    color: white;
+}
+#forecast-box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 50%;
+    margin-left: 20px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
+}
+.card h3,p{
+    padding-left: 5px;
+}
+.card :nth-child(1){
+    font-size: 26px;
+}
+.card :nth-child(2)
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

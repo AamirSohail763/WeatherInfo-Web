@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>WeatherInfo</title>
+</head>
+<body>
+    <div id="header">
+        <img id="top-banner" src="http://www.drsbonds.co.uk/wp-content/themes/drs-bond/images/default-banner.jpg">
+        <h1 ><i class="fa-solid fa-cloud-sun-rain"></i>&nbsp;&nbsp;WeatherInfo</h1>
+        <h4 id="creator"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;AamirSohail763</h4>
+        <input type="text" id="city" placeholder="Enter City Name">
+        <button id="search-btn" onclick="getData()">Search</button>
+
+        <div id="info-box"></div>
+
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="forecast-box"></div>
+</body>
+</html>
+
+<script src="index.js"></script>
