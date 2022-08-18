@@ -2,7 +2,7 @@
 
 ## About the Project
 
-*
+It's a website to show the weather forecast details using weather API & here you will be able to search for all the weather details for any city. It also shows the weather forecast for next 6 days for the given location. It also has google map embedded in the webpage which gives the general overview of the locality.
  
 
 ## Tech Stack
